@@ -1,0 +1,130 @@
+/*font-family: 'Londrina Solid', cursive;   100 300 400 900
+font-family: 'Roboto Condensed', sans-serif;    300*/
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Roboto+Condensed:wght@300&display=swap');
+body{
+    color: black;
+}
+h1{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 900;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+}
+h3{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 300;
+}
+p{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 100;
+    font-size: 19px;
+}
+a{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 100;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.cabecera1{
+    position: relative;
+    top:-15px;
+    right: 10px;
+}
+.cabecera1 ul{
+    display:list-item;
+    column-count: 4;
+    text-align: right;
+    background-color: #FFF851;
+    padding: 15px 20px 10px 0px;
+}
+.cabecera2 a{
+    font-weight: 400;
+}
+.cabecera2 ul{
+    display:flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -10px;
+}
+.cabecera2 img{
+    position: relative;
+    top:-25px;
+}
+/*INICIO*/
+.parte_uno{
+    position: relative;
+    top:-50px;
+    text-align: center;
+}
+.parte_dos h1{
+    text-align: center;
+}
+.parte_dos ul{
+    display: block;
+    column-count: 2;
+}
+.parte_tres h1{
+    text-align: left;
+    line-height: 50px;
+}
+.parte_tres p{
+    line-height: 30px;
+}
+.parte_tres ul{
+    text-align: justify;
+    display: flex;
+    justify-content: space-around;
+}
+.parte_cinco{
+    text-align: center;
+}
+footer{
+    position: relative;
+    top: 100px;
+    display: block;
+    column-count: 2;
+    justify-content: space-between;
+    background-color: #FFF851;
+    padding: 25px 0px 0px 0px;
+    
+}
+footer ul{
+    font-size: 30px;
+}
+footer a{
+    font-size: 30px;
+}   
+
+/*experiencia de viaje*/
+.parte_uno_e{
+    text-align: center;
+}
+.parte_uno_e ul{
+    display: block;
+    column-count: 2;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+
+/*promociones y paquetes*/
+.parte_uno_p{
+    text-align: center;
+}
+.parte_uno_p ul{
+    display: block;
+    column-count: 4;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+/*contactos*/
+.parte_uno_c{
+    text-align: center;
+}
